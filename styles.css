@@ -1,0 +1,87 @@
+.linea{
+    border-top: 2px solid #808080;
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: start;
+}
+.contenedor2{
+    display: flex;
+}
+
+.perro{
+    max-width: 700px;
+    max-height: 700px;
+}
+
+body{
+    background-color: #107E7D; /*Color del fondo*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-h2{
+    font-weight: bold;
+}
+
+.izquierda{
+    display: inline-block;
+    width: 100px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.derecha{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+.texto-derecha{
+    margin-left: 30px;
+    text-align: left;
+}
+.texto-tamaño{
+    font-size: large;
+    font-weight: 500;
+}
+
+.bor{ /*Bordear imagen de borgoña.html*/
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    height: 40rem;
+}
+
+.bordear{ /*Bordear fotos*/
+    border-radius: 1rem;
+}
+
+.costa{ /*Se ocupo para poner del mismo tamaño las mascotas en adopta.html*/
+    height: 25rem;
+}
+
+.boton{
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: .6rem;
+    font-size: large;
+    padding: 5px 10px;
+}
+
+.boton:hover{
+    background-color: rgb(152, 204, 228);
+    cursor: pointer;
+    
+}
+.animal{
+    width: 550px;
+    height: 600px;
+}

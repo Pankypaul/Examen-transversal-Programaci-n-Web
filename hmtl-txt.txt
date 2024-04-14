@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <header class="bajar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand separar_items inicio" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item separar_items">
+                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item separar_items">
+                    <a class="nav-link" href="#">Juegos</a>
+                  </li>
+                  <li class="nav-item separar_items">
+                    <a class="nav-link" href="#">Iniciar Sessión</a>
+                  </li>
+                  <li class="nav-item separar_items">
+                    <a class="nav-link" href="#">Registrarse</a>
+                  </li>
+                  
+                  <!------------------------------------------------->
+                  <!--No lo borre por si lo necesitamos más delante-->
+                  <!------------------------------------------------->
+
+
+                  <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Link</a>
+                  </li>-->
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn" type="submit">🔎</button>
+                  <button class="btn" type="submit">🛒</button>
+                  <button class="btn" type="submit">👤</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <nav>
+        <h1 class="centrar_titulo bajar">Mega Games</h1>
+        <hr class="bajar centrar_titulo">
+    </nav>
+
+    <main>
+        <section class="tamaño mx-auto ">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./IMG/tienda_game_4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMG//tienda_game-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMG/tienda_game_4.jpg " class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" >
+                      <h5 >Encuentranos ya en tienda fisica</h5>
+                      <p>Tenemos todos los juegos de la ultima decada</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+        </section>
+        <div>
+            <h1 class="bajar centrar_titulo">Revisa nuestro catalogo</h1>
+            <hr class="centrar_titulo">
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--Minecraft, GTA V, Hollow Knight -->
+<!------------------------------------------------------------------------------------------------------------------------>
+    <div class="row mt-2 "> 
+        <!--Minecraft-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG//Foto juegos/minecraft-ps4.jpg" class="card-img-top bordear tam_foto" alt="Minecraft"></a>
+                <div class="card-body ">
+                  <p class="card-text"><a href="">Minecraft <br> Ps4 Edition</a></p>
+                </div>
+              </div>
+        </div>
+        
+        <!--GTA V-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/GTA V.webp" class="card-img-top bordear tam_foto" alt="GRAND THEFT AUTO V"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">GRAND THEFT AUTO V <br> Ps4 Edition</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--Hollow Knight-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/Hollow Knight.webp" class="card-img-top bordear tam_foto" alt="Hollow Knight"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">Hollow Knight <br> Xbox SX Edition</a></p>
+                </div>
+              </div>
+        </div>
+    
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--NEED FOR SPEED, Fifa 2024, God of war -->
+<!------------------------------------------------------------------------------------------------------------------------>
+    <div class="row mt-2 ">
+        <!--NEED FOR SPEED-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/NEED FOR SPEED.jpg" class="card-img-top bordear tam_foto" alt="NEED FOR SPEED"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">NEED FOR SPEED <br> Nintendo Switch</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--Fifa 2024-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/Fifa 24.png" class="card-img-top bordear tam_foto" alt="Fifa 2024"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">Fifa 2024 <br> Playstation 5</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--God of war-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem ">
+                <a href=""><img src="./IMG/Foto juegos//God of war.png" class="card-img-top bordear tam_foto" alt="God of war"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">God of war <br> Ps4 EDITION</a></p>
+                </div>
+              </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--THE LAST OF US PART II, Mega Man X, Super Smash Bros Ultimate -->
+<!------------------------------------------------------------------------------------------------------------------------>
+    <div class="row mt-2 ">
+        <!--THE LAST OF US PART II-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/THE LAST OF US PART II.png" class="card-img-top bordear tam_foto" alt="THE LAST OF US PART II"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">THE LAST OF US: PART II <br> Playstation 5</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--Mega Man X-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/Mega Man X.webp" class="card-img-top bordear tam_foto" alt="Mega Man X"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">Mega Man X <br> Xbox SX Series</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--Super Smash Bros Ultimate-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem ">
+                <a href=""><img src="./IMG/Foto juegos/Super Smash Bros Ultimate.jpg" class="card-img-top bordear tam_foto" alt="Nintendo Switch"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">Super Smash Bros Ultimate <br> Nintendo Switch</a></p>
+                </div>
+              </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--SPIDER-MAN 2, HALO INFINITE,  THE LEGEND OF ZELDA BREATH OF THE WILD -->
+<!------------------------------------------------------------------------------------------------------------------------>
+    <div class="row mt-2 ">
+        <!--SPIDER-MAN 2-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/SPIDER-MAN 2.jpg" class="card-img-top bordear tam_foto" alt="SPIDER-MAN 2"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">SPIDER-MAN 2 <br> Playstation 5</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--THE LEGEND OF ZELDA BREATH OF THE WILD-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/THE LEGEND OF ZELDA BREATH OF THE WILD.jpg" class="card-img-top bordear tam_foto" alt="THE LEGEND OF ZELDA BREATH OF THE WILD"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">THE LEGEND OF ZELDA BREATH OF THE WILD Nintendo Switch</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--HALO INFINITE-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem ">
+                <a href=""><img src="./IMG/Foto juegos/HALO INFINITE.jpg" class="card-img-top bordear tam_foto" alt="HALO INFINITE"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">HALO INFINITE <br> Xbox SX Series</a></p>
+                </div>
+              </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--CALL OF DUTY MODERN WARFARE, ARK SURVIVAL ASCENDED, MORTAL KOMBAT 11 ULTIMATE Nintendo Switch -->
+<!------------------------------------------------------------------------------------------------------------------------>
+    <div class="row mt-2 ">
+        <!--CALL OF DUTY MODERN WARFARE-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto ">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/CALL OF DUTY MODERN WARFARE.jpg" class="card-img-top bordear tam_foto" alt="CALL OF DUTY MODERN WARFARE"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href=""> CALL OF DUTY MODERN WARFARE Xbox XS SERIES </a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--ARK SURVIVAL ASCENDED-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem;">
+                <a href=""><img src="./IMG/Foto juegos/ARK SURVIVAL ASCENDED.jpg" class="card-img-top bordear tam_foto" alt="ARK SURVIVAL ASCENDED"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href="">ARK SURVIVAL ASCENDED <br> Playstation 5</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!--MORTAL KOMBAT 11 ULTIMATE-->
+        <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4 mt-2 mx-auto">
+            <div class="card mx-auto bordear" style="width: 17rem ">
+                <a href=""><img src="./IMG/Foto juegos/MORTAL KOMBAT 11 ULTIMATE Nintendo Switch.jpg" class="card-img-top bordear tam_foto" alt="MORTAL KOMBAT 11 ULTIMATE"></a>
+                <div class="card-body">
+                  <p class="card-text"><a href=""> MORTAL KOMBAT 11 ULTIMATE <br>Nintendo Switch</a></p>
+                </div>
+              </div>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------>
+    <!--PS4 = 3-->
+    <!--PS5 = 4-->
+    <!--SWITCH = 3-->
+    <!--XBOX = 4-->
+    <!---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
