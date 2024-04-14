@@ -29,8 +29,13 @@ body{/*Fondo de pantalla*/
     border-radius: 1rem;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
-.tam_foto{ /*Se ocupo para poner del mismo tamaño las mascotas en adopta.html*/
+.tam_foto{ /*Se ocupo para poner del mismo tamaño las fotos*/
     height: 15rem;
+    width: 17rem;
+}
+.tam_foto2{ /*Se ocupo para poner del mismo tamaño las fotos*/
+    height: 25rem;
+    width: 45rem;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 .btn:hover{ /*Diseño de lupa, carrito y perfil*/
